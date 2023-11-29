@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Birthday Wishes</title>
+    <style>
+        body {
+            background-color: #f5e1da; /* Light peach background */
+            text-align: center; /* Center-align text */
+            color: #6d6875; /* Deep lavender text color */
+            font-family: 'Arial', sans-serif; /* Set font-family */
+        }
+
+        h1 {
+            color: #f28482; /* Coral heading color */
+        }
+
+        p {
+            margin: 10px 0; /* Add some margin to paragraphs */
+            color: #6d6875; /* Deep lavender text color */
+        }
+
+        button {
+            background-color: #9ad3bc; /* Mint green button background color */
+            color: #574f7d; /* Dark periwinkle button text color */
+            padding: 10px 20px; /* Add padding to the button */
+            font-size: 16px; /* Set font size for the button text */
+            cursor: pointer; /* Add pointer cursor to the button */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add border-radius to the button */
+        }
+
+        button:hover {
+            background-color: #7ea0a7; /* Light teal button background color on hover */
+        }
+
+        img {
+            width: 300px; /* Set image width */
+            border-radius: 50%; /* Add border-radius for a circular effect */
+            margin-top: 20px; /* Add some margin above the image */
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Happy Birthday, Melanie! 🎂</h1>
+    
+    <p>Dear Melanie,</p>
+    
+    <p>Wishing you a day filled with joy, laughter, and all the wonderful things life has to offer! 🎈</p>
+    
+    <p>As a special birthday treat, I've prepared a song just for you. Click the play button below to start the celebration!</p>
+    
+    <button onclick="playAudio()">Play Birthday Song</button>
+
+    <audio id="birthdayAudio" controls>
+        <source src="C:\Users\jomar\Downloads\You're My Best Friend (Remastered 2011).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("birthdayAudio");
+            audio.play();
+        }
+    </script>
+    
+    <p>Once you've enjoyed the song, feel free to continue reading the letter below.</p>
+
+    <p>May this year be filled with amazing moments and incredible memories. Happy Birthday!</p>
+
+    <img src="C:\Users\jomar\Downloads\IMG_5109.JPG" alt="Melanie's Picture">
+
+    <p>Best wishes,</p>
+    
+    <p>Your Name 🎁</p>
+</body>
+</html>
